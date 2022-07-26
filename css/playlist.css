@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.player {
+  max-width: 480px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.player .icon-pause {
+  display: none;
+}
+
+.playing .icon-pause {
+  display: inline-block;
+}
+
+.playing .icon-play {
+  display: none;
+}
+
+.dashboard {
+  padding: 10px;
+  background-image: linear-gradient(#663399, #993399, #9933cc);
+  border-bottom: 2px solid rgb(105, 102, 102);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: fixed;
+  top: 0;
+  width: 360px;
+  margin: 0 10px;
+  z-index: 10;
+}
+
+.songName {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin: 15px 0;
+}
+
+.menubtn {
+  font-size: 24px;
+}
+.fa-bars {
+  cursor: pointer;
+  float: left;
+  padding-top: 5px;
+  color: white;
+}
+.fa-bars:hover,
+.fa-search:hover {
+  color: #bbbbbb;
+}
+
+.fa-search {
+  cursor: pointer;
+  float: right;
+  padding-top: 5px;
+  color: white;
+}
+
+.searchbtn {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cd {
+  margin: 0 auto;
+}
+.cd-thumb {
+  border-radius: 50%;
+  padding-top: 60%;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 15px 0;
+}
+
+.control .btn {
+  color: #ffffff;
+  margin: 20px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.control .btn:not(:nth-child(3)):hover {
+  color: #bbbbbb;
+}
+
+.control .btn-toggle-play {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: rgb(235, 53, 53);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+label {
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress {
+  width: 100%;
+  height: 5px;
+  background: blueviolet;
+  outline: none;
+  margin: 0 10px;
+}
+
+.playlist {
+  margin: 480px 10px 10px 10px;
+  width: 360px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #9933cc;
+  height: 70px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.song:hover {
+  opacity: 0.8;
+}
+
+.song .title {
+  font-size: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  height: 27px;
+  margin: 5px 0;
+}
+
+.song .author {
+  font-size: 14px;
+  color: #666666;
+}
+
+.song:last-child {
+  margin-bottom: 5px;
+}
+
+.thumb {
+  width: 75px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto 15px;
+}
+
+.body {
+  float: left;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+
+.option {
+  float: right;
+  width: 50px;
+}
+
+/*.cdrotate{
+    animation: cdspin infinite 15s linear;
+}
+@keyframes cdspin {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+  }*/
+
+.activeRandomBtn .fa-random {
+  color: red;
+}
+
+.activeRepeatBtn .fa-redo {
+  color: red;
+}
+
+.song.activeSongCurrent {
+  background-image: linear-gradient(#993399, #9933cc);
+}
+
+.song.activeSongCurrent .title {
+  color: white;
+}
+
+.song.activeSongCurrent .author {
+  color: white;
+}
+
+.song.activeSongCurrent .option {
+  color: white;
+}
+
+/*--------------------------------------------*/
+li {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  color: #ffffffb8;
+  list-style: none;
+}
+
+.icon {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.exit {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.fa-window-close {
+  font-size: 27px;
+  float: right;
+  cursor: pointer;
+}
+.fa-window-close:hover {
+  color: red;
+}
+
+.menubar {
+  width: 55%;
+  height: 100%;
+  background-color: #568dee;
+  transform: translateX(-100%);
+  z-index: 999;
+  transition: 0.3s;
+  position: absolute;
+  top: 0;
+  position: fixed;
+}
+
+.menu_appear {
+  transform: translateX(0);
+  transition: 0.3s;
+}
+
+.content_opacity {
+  position: absolute;
+  opacity: 0.7;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*-----------------------------------------------*/
