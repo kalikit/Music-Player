@@ -20,7 +20,6 @@ const app = {
   isActive: false,
   isRepeat: false,
   isMenuAppear: false,
-  isScroll: false,
   songs: [
     {
       name: "An hà kiều",
