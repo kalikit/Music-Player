@@ -23,13 +23,13 @@ const app = {
   songs: [
     {
       name: "An hà kiều",
-      singer: "thang",
+      singer: "Trần Gia Đoàn",
       path: "./music/anhakieu.mp3",
       image: "./img/anh1.jpg",
     },
     {
       name: "Bạch nguyệt quang và nốt chu sa",
-      singer: "thang",
+      singer: "Đại Từ",
       path: "./music/bach nguyet quang.mp3",
       image: "./img/anh2.jpg",
     },
@@ -41,15 +41,45 @@ const app = {
     },
     {
       name: "Giữ chặt cậu",
-      singer: "thang",
+      singer: "Nhất Khẩu Điềm",
       path: "./music/giu chat cau.mp3",
       image: "./img/anh4.jpg",
     },
     {
       name: "Thanh ti",
-      singer: "thang",
+      singer: "tĐẳng Thập Yêu Quân",
       path: "./music/thanh ti.mp3",
       image: "./img/anh5.jpg",
+    },
+    {
+      name: "Hạ sơn",
+      singer: "Yếu Bất Yếu Mãi Thái",
+      path: "./music/ha son.mp3",
+      image: "./img/hason.jpg",
+    },
+    {
+      name: "Hoa cài mái tóc",
+      singer: "NB3 Bảo",
+      path: "./music/hoa cai mai toc.mp3",
+      image: "./img/hoacaimaitoc.jpg",
+    },
+    {
+      name: "Quan sơn tửu",
+      singer: "Đẳng thập ma quân",
+      path: "./music/quan son tuu.mp3",
+      image: "./img/quansontuu.jpg",
+    },
+    {
+      name: "Tô mạc già",
+      singer: "Lão Bạch",
+      path: "./music/to mac gia.mp3",
+      image: "./img/tomacgia.jpg",
+    },
+    {
+      name: "Yến vô hiết",
+      singer: "Tưởng tuyết nhi",
+      path: "./music/yen vo hiet.mp3",
+      image: "./img/yenvohiet.jpg",
     },
   ],
 
