@@ -47,7 +47,7 @@ const app = {
     },
     {
       name: "Thanh ti",
-      singer: "tĐẳng Thập Yêu Quân",
+      singer: "Đẳng Thập Yêu Quân",
       path: "./music/thanh ti.mp3",
       image: "./img/anh5.jpg",
     },
