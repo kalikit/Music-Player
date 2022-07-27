@@ -13,7 +13,7 @@ const menubtn = document.querySelector(".menubtn");
 const menubar = document.querySelector(".menubar");
 const lammo = document.querySelector(".player");
 const exitbtn = document.querySelector(".exit");
-const songActive = document.querySelector(".song .activeSongCurrent");
+const songActive = document.querySelector(".activeSongCurrent");
 
 const app = {
   currentindex: 0,
