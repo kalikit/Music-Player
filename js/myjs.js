@@ -13,6 +13,7 @@ const menubtn = document.querySelector(".menubtn");
 const menubar = document.querySelector(".menubar");
 const lammo = document.querySelector(".player");
 const exitbtn = document.querySelector(".exit");
+const songActive = document.querySelector(".song.activeSongCurrent");
 
 const app = {
   currentindex: 0,
@@ -294,7 +295,7 @@ const app = {
 
   scrollActiveView: function () {
     setTimeout(() => {
-      $('.song .activeSongCurrent').scrollIntoView({
+      songActive.scrollIntoView({
         behavior: "smooth",
         block: "center",
       });
